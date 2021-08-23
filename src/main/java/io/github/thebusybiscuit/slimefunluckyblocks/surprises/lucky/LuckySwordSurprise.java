@@ -18,9 +18,9 @@ public final class LuckySwordSurprise implements Surprise {
 	
 	public LuckySwordSurprise() {
 		sword = new CustomItem(Material.GOLDEN_SWORD, "&e&lLucky Sword");
-		sword.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 10);
-		sword.addUnsafeEnchantment(Enchantment.LOOT_BONUS_MOBS, 10);
-		sword.addUnsafeEnchantment(Enchantment.DURABILITY, 10);
+		sword.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 7);
+		sword.addUnsafeEnchantment(Enchantment.LOOT_BONUS_MOBS, 7);
+		sword.addUnsafeEnchantment(Enchantment.DURABILITY, 7);
 		sword.addUnsafeEnchantment(Enchantment.FIRE_ASPECT, 5);
 	}
 	
